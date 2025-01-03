@@ -79,7 +79,9 @@ export default function RootLayout({
         </header>
         <main className="sm:mt-16 min-[375]:mt-9 mt-14">{children}</main>
         <footer id="contact" className="bg-neutral-800 text-white p-5 w-screen">
-          <h2 className="text-lg font-bold mb-4 text-center">Let's Connect</h2>
+          <h2 className="text-lg font-bold mb-4 text-center">
+            Let&apos;s Connect
+          </h2>
           <div className="container mx-auto text-center">
             <div className="flex justify-center space-x-6 mb-4">
               <a

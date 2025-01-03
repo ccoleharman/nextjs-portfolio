@@ -23,7 +23,7 @@ export default function Projects() {
         <Project
           title="Advent of Code in Rust"
           description="Completed all challenges using Rust, demonstrating expertise in algorithms, data structures, and problem-solving with Rust."
-          link="https://github.com/coleharman/advent-of-code-2024"
+          link="https://github.com/ccoleharman/advent-of-code-2024-rust"
           image="/aocRust.png"
           icons={["Rust", "Algorithms", "Data Structures", "Git"]}
         />

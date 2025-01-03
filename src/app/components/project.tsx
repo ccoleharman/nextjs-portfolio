@@ -29,7 +29,10 @@ const Project: React.FC<ProjectProps> = ({
       </a>
       <ul>
         {icons.map((item) => (
-          <li className="rounded bg-gradient-to-r to-sky-500 from-sky-600 px-2 py-1 inline-block m-2">
+          <li
+            key={item}
+            className="rounded bg-gradient-to-r to-sky-500 from-sky-600 px-2 py-1 inline-block m-2"
+          >
             {item}
           </li>
         ))}

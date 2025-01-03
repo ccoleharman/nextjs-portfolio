@@ -9,7 +9,7 @@ export default function Home() {
             Cole Harman | Aspiring Software Engineer
           </h1>
           <p className="sm:text-xl italic">
-            "Driven by curiosity, powered by technology."
+            &quot;Driven by curiosity, powered by technology.&quot;
           </p>
           <ul>
             <li className="rounded bg-gradient-to-r to-sky-500 from-sky-600 px-2 py-1 inline-block m-2 ml-0">

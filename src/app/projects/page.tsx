@@ -8,8 +8,8 @@ export default function Projects() {
           Projects
         </h1>
         <p className="mt-3">
-          Here are some of the projects I've worked on. You can find more on my
-          &nbsp;
+          Here are some of the projects I&apos;ve worked on. You can find more
+          on my &nbsp;
           <a
             className="hover:bg-gradient-to-r hover:to-sky-500 hover:from-sky-600 hover:text-white rounded inline-block px-2 italic"
             href="https://github.com/ccoleharman/"

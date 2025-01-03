@@ -21,27 +21,27 @@ export default function RootLayout({
         <header className="flex justify-between items-center text-white text-sm fixed top-0 left-0 w-full bg-neutral-900 shadow-md z-50 sm:text-xl">
           <h1 className="sm:m-5 m-2 ml-3">Cole Harman</h1>
           <nav className="mr-5">
-            <a
+            <Link
               className="p-2 sm:m-2 rounded hover:bg-gradient-to-r hover:to-sky-500 hover:from-sky-600"
               href="/"
-              aria-label="Home"
+              aria-label="Contact"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               className="p-2 sm:m-2 rounded hover:bg-gradient-to-r hover:to-sky-500 hover:from-sky-600"
               href="/about"
-              aria-label="About"
+              aria-label="Contact"
             >
               About
-            </a>
-            <a
+            </Link>
+            <Link
               className="p-2 sm:m-2 rounded hover:bg-gradient-to-r hover:to-sky-500 hover:from-sky-600"
               href="/projects"
               aria-label="Projects"
             >
               Projects
-            </a>
+            </Link>
             <Link
               className="p-2 sm:m-2 rounded hover:bg-gradient-to-r hover:to-sky-500 hover:from-sky-600"
               href="javascript: document.body.scrollIntoView(false);"
@@ -111,8 +111,8 @@ export default function RootLayout({
               </a>
             </div>
             <p className="mt-4 italic">
-              "Looking for a motivated developer? Let's build something great
-              together!"
+              &quot;Looking for a motivated developer? Let&apos;s build
+              something great together!&quot;
             </p>
           </div>
         </footer>

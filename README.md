@@ -45,9 +45,8 @@ To run the portfolio locally, follow these steps:
 ```
 .
 ├── components    # Reusable React components
-├── pages         # Next.js pages and routes
+├── app           # Next.js pages and routes
 ├── public        # Static assets (images, icons, etc.)
-├── styles        # Global and component-specific styles
 └── README.md     # Documentation for the project
 ```
 

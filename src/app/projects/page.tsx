@@ -30,7 +30,7 @@ export default function Projects() {
         <Project
           title="This Portfolio"
           description="Created a professional portfolio website, demonstrating front-end web capabilities and knowledge of Next.js and Tailwind CSS."
-          link="https://github.com/coleharman/advent-of-code-2024"
+          link="/"
           image="/home.svg"
           icons={["React", "Next.js", "Tailwind CSS", "HTML", "CSS"]}
         />
